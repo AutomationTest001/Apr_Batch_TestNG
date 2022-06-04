@@ -27,7 +27,7 @@ public class SoftAssertTest {
 		
 		sft=new SoftAssert();
 
-		w.get("http://demo.testfire.net/login.jsp");
+		w.get("http://altoromutual.com:8080/login.jsp");
 
 		String loginPageTitle = w.getTitle();
 		sft.assertEquals(loginPageTitle, "Altoro Mutual");

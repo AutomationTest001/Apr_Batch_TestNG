@@ -24,7 +24,7 @@ public class LoginMutualFund {
 	@Test(priority = 0,description = "Test case to verify login functionality using admin user",groups = "Login")
 	public void loginAdminUser() throws Exception {
 
-		w.get("http://demo.testfire.net/login.jsp");
+		w.get("http://altoromutual.com:8080/login.jsp");
 		w.findElement(By.id("uid")).sendKeys("admin");
 		w.findElement(By.name("passw")).sendKeys("admin");
 		w.findElement(By.name("btnSubmit")).click();

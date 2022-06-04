@@ -23,7 +23,7 @@ public class HardAssertTest {
 	@Test(priority = 0, description = "Verify Login Page Functionality")
 	public void verifyLoginPage() throws Exception {
 
-		w.get("http://demo.testfire.net/login.jsp");
+		w.get("http://altoromutual.com:8080/login.jsp");
 
 		String loginPageTitle = w.getTitle();
 		Assert.assertEquals(loginPageTitle, "Altoro Mutual");
